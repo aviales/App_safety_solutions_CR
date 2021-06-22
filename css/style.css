@@ -200,7 +200,7 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background-image: url(https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1250);
 }
 
 .loader {
@@ -359,6 +359,9 @@ button:focus {
     background-size: auto 100%;
 }
 
+
+/*este es el que le da color a los titulos del navbar**/
+
 .top-header .navbar .navbar-collapse ul li a {
     text-transform: uppercase;
     font-size: 15px;
@@ -366,7 +369,8 @@ button:focus {
     position: relative;
     font-weight: 400;
     overflow: hidden;
-    color: #000;
+    color: rgb(14, 13, 13);
+    margin-bottom: -6em;
 }
 
 a.navbar-brand {
@@ -2017,4 +2021,92 @@ ul.bottom_menu li {
 
 .redes-sociales .list-group-item {
     padding: 8px 9px !important;
+}
+
+
+/*------------------------------------------------------------------ APP SAFETY CR -------------------------------------------------------------------*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #696158;
+}
+
+.header {
+    background: #bcc2c4;
+}
+
+.app {
+    padding: 2rem;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.control input {
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.control .btn {
+    background: #4ABAAD;
+    border: 1px solid #4ABAAD;
+    border-radius: 0px;
+    color: white;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.log-type {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.log-type i {
+    font-size: 1.75rem;
+}
+
+.log-type h3 {
+    margin: 0;
+}
+
+.auth-status {
+    text-align: center;
+}
+
+.autorized {
+    background: #bfb800;
+}
+
+.unauthorized {
+    background: #ea7600;
+    color: white;
+}
+
+.location-body {
+    text-align: center;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 56px);
+    position: absolute;
+    width: 100vw;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.3);
 }
