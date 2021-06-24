@@ -365,11 +365,11 @@ button:focus {
 .top-header .navbar .navbar-collapse ul li a {
     text-transform: uppercase;
     font-size: 15px;
-    padding: 7px 20px;
+    margin: -28px 0px;
     position: relative;
     font-weight: 400;
     overflow: hidden;
-    color: rgb(14, 13, 13);
+    color: rgb(8, 23, 228);
     margin-bottom: -6em;
 }
 
@@ -398,7 +398,7 @@ a.navbar-brand img {
 }
 
 .top-header .navbar .navbar-collapse ul li {
-    margin: 0 2px;
+    margin: 22px 5px 0px 150px;
 }
 
 .top-header.fixed-menu {
@@ -1536,8 +1536,6 @@ p.count-text {
 .dit-right a:hover {
     color: #57cef8;
 }
-
-.contact-block {}
 
 .contact-block .form-group .form-control {
     background: #333;

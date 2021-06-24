@@ -25,10 +25,12 @@
     <link rel="stylesheet" href="css/pogo-slider.min.css" />
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -95,39 +97,36 @@
 
                 <div class="col-lg-7 col-sm-7 col-xs-12 margin-top_30">
                     <div class="contact-block">
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                        <div class=" width:auto max-w-xs ">
+                            <form id="form " class="bg-white shadow-md rounded px-8 pt-10 pb-6 mb-9 ">
+                                <div class="mb-4 ">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2 " for="name ">
+                                        Nombre
+                                    </label>
+                                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " name="name " id="name " type="text " placeholder="Ingresa tu nombre " required>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                                <div class="mb-4 ">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2 " for="name ">
+                                        Apellidos
+                                    </label>
+                                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " name="lastname " id="lastname " type="text " placeholder="Ingresa tus apellidos " required>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your number" id="number" class="form-control" name="number" required data-error="Please enter your number">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                                <div class="mb-4 ">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2 " for="name ">
+                                        Correo
+                                    </label>
+                                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " name="email " id="email " type="email " placeholder="Ingresa tu correo " required>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="submit-button text-center">
-                                        <button class="btn btn-common" id="submit" type="submit">Enviar correo</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
+                                <div class="flex items-center justify-between ">
+                                    <button id="submit " class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline " type="submit ">
+                                        <i class="fab fa-whatsapp "></i> Enviar WhatsApp
+                                    </button>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                            <p class="text-center text-gray-500 text-xs ">
+                                Desarrollado por: <b><a target="_blank " href="https://.me ">Alonso Viales</a></b>
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -266,7 +265,7 @@
                         width="35 " alt=" " style="width:30px;height:40px;object-fit:cover;object-position:50% 50%"></a>
             </li>
             <li class="list-group-item " title="¡Visítanos! ¿Cómo llegar?">
-                <a data-testid="linkElement " href="https://waze.com/ul/hd1g4k6trt " target="_blank " rel="noopener " class="_2edl5 " width="35 " alt=" ">
+                <a data-testid="linkElement " href="https://waze.com/ul/hd1u0wu7bn " target="_blank " rel="noopener " class="_2edl5 " width="35 " alt=" ">
                     <wix-image id="img " class=" " data-image-info="{&quot;containerId&quot;:&quot;if35yljk&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:411,&quot;height&quot;:411,&quot;uri&quot;:&quot;74824e_78678cd6025c48c881fae49690d21a71~mv2.png&quot;,&quot;name&quot;:&quot;waze-icon-png.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;quality&quot;:{&quot;unsharpMask&quot;:{&quot;radius&quot;:0.66,&quot;amount&quot;:1,&quot;threshold&quot;:0.01}}}} "
                         data-bg-effect-name=" " data-is-svg="false " data-is-svg-mask="false " data-image-zoomed=" " data-has-ssr-src="true "><img src="https://crocodilemantour.com/wp-content/uploads/2020/09/waze-icon-png.png " alt="ANASAC
                         WAZE " style="width:60px;height:60px;object-fit:cover;object-position:50% 50% " /></wix-image>
@@ -280,7 +279,7 @@
                         width="35 " alt=" " style="width:30px;height:40px;object-fit:cover;object-position:50% 50%"></a>
             </li>
             <li class="list-group-item" title=" ¡Comunícate con nosotros! ">
-                <a data-testid="linkElement " href="https://wa.me/50683510702 " target="_blank " rel="noopener " class="_2edl5 ">
+                <a data-testid="linkElement " href="https://wa.me/50672037464 " target="_blank " rel="noopener " class="_2edl5 ">
                     <wix-image id="img_comp-kaers49j " class="rca7A _2ztx1 " data-image-info="{&quot;containerId&quot;:&quot;comp-kaers49j&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:3840,&quot;height&quot;:2160,&quot;uri&quot;:&quot;74824e_4225d13142aa42b79474b077c1259a9e~mv2.png&quot;,&quot;name&quot;:&quot;WhatsApp-logo.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;quality&quot;:{&quot;unsharpMask&quot;:{&quot;radius&quot;:0.66,&quot;amount&quot;:1,&quot;threshold&quot;:0.01}}}} "
                         data-bg-effect-name=" " data-is-svg="false " data-is-svg-mask="false " data-image-zoomed=" " data-has-ssr-src="true "><img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png " alt="ANASAC CONTACTO WHATSAPP
                 " style="width:30px;height:40px;object-fit:cover;object-position:50% 50% " /></wix-image>
@@ -305,6 +304,20 @@
     <script src="js/isotope.min.js"></script>
     <script src="js/images-loded.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/whatsapp.js"></script>
+    <script src="https://kit.fontawesome.com/1e268974cb.js" crossorigin="anonymous"></script>
+    <!-- Código de instalación Cliengo para https://aviales.github.io/App_safety_solutions_CR/ -->
+    <script type="text/javascript">
+        (function() {
+            var ldk = document.createElement('script');
+            ldk.type = 'text/javascript';
+            ldk.async = true;
+            ldk.src = 'https://s.cliengo.com/weboptimizer/60d0c547b6a4e7002a0bf6d3/60d51ac5430fe9002a2fc2c6.js?platform=onboarding_modular';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ldk, s);
+        })();
+    </script>
     <script>
         /* counter js */
 
@@ -407,6 +420,7 @@
             }
         });
     </script>
+
 </body>
 
 </html>
